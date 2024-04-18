@@ -1,5 +1,5 @@
 import ContainerAOS from "@/components/elements/ContainerAOS";
-import Index from "./components/Index";
+import Index from "./components/index";
 
 export const metadata = {
   title: "Projects ",
