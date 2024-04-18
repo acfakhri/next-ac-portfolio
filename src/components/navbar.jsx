@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { NavLists } from "@/constants/NavLists";
+import { NavLists } from "@/components/navlists";
 
 export default function Navbar() {
   return (

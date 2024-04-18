@@ -21,8 +21,8 @@ import {
       icon: <BiLeaf size={icon_size} />,
     },
     {
-      name: "projects",
-      link: "/projects",
+      name: "project",
+      link: "/project",
       icon: <BiBox size={icon_size} />,
     },
     {

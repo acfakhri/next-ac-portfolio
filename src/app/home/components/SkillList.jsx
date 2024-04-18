@@ -1,5 +1,5 @@
 import { HiCode } from 'react-icons/hi'
-import { Stacks } from '@/constants/Stacks';
+import { Stacks } from '@/constants/Home/Stacks';
 import SkillCard from './SkillCard';
 import MarqueeElement from '@/components/elements/MarqueeElement';
 import SectionHeading from '@/components/elements/SectionHeading';

@@ -7,7 +7,7 @@ import { Divider } from "@nextui-org/react";
 import { useState, useEffect, useRef } from "react";
 import Copyright from './elements/copyright';
 import ThemeSwitcher from './elements/ThemeSwitcher';
-import { NavLists } from "@/constants/NavLists";
+import { NavLists } from "@/components/navlists";
 
 export default function Sidebar() {
   const [isActive, setIsActive] = useState(false);
@@ -31,10 +31,10 @@ export default function Sidebar() {
     <>
     <div className='md:mt-9 mt-0' >
       <aside
-        class="md:sticky fixed top-0 z-40 md:w-60 w-full md:py-5 py-0 h-fit  transition-all duration-500 ease-in-out md:flex bg-neutral-50 md:bg-transparent dark:bg-dark md:dark:bg-transparent border-b-2 dark:border-neutral-800 md:border-0 justify-center"
+        className="md:sticky fixed top-0 z-40 md:w-60 w-full md:py-5 py-0 h-fit  transition-all duration-500 ease-in-out md:flex bg-neutral-50 md:bg-transparent dark:bg-dark md:dark:bg-transparent border-b-2 dark:border-neutral-800 md:border-0 justify-center"
         aria-label="Sidebar"
       >
-        <div class="md:p-4 p-0 overflow-y-auto rounded-xl w-full">
+        <div className="md:p-4 p-0 overflow-y-auto rounded-xl w-full">
           <div className="flex flex-row md:flex-col md:justify-center justify-between p-4 md:p-0">
             <Profile activeProps={isActive}/>
             <div className={`flex ${ isActive ? 'flex-col-reverse justify-between':'flex-row'}`}>

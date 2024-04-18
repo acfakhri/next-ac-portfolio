@@ -2,7 +2,7 @@ import { BiBriefcaseAlt2 } from "react-icons/bi";
 import Link from "next/link";
 import SectionHeading from "@/components/elements/SectionHeading";
 import SectionSubHeading from "@/components/elements/SectionSubHeading";
-import { CareerLists } from "@/constants/CareerLists";
+import { CareerLists } from "@/constants/Home/CareerLists";
 
 
 
